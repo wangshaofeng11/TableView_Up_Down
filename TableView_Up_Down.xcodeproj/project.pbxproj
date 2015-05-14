@@ -14,6 +14,8 @@
 		5CE725CD1B0483ED00A45511 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE725CC1B0483ED00A45511 /* Images.xcassets */; };
 		5CE725D01B0483ED00A45511 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CE725CE1B0483ED00A45511 /* LaunchScreen.xib */; };
 		5CE725DC1B0483ED00A45511 /* TableView_Up_DownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE725DB1B0483ED00A45511 /* TableView_Up_DownTests.m */; };
+		5CE725E71B04857D00A45511 /* ViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE725E61B04857D00A45511 /* ViewTableViewCell.m */; };
+		5CE726241B04A42900A45511 /* UIButton+Mybutton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE726231B04A42900A45511 /* UIButton+Mybutton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		5CE725D51B0483ED00A45511 /* TableView_Up_DownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableView_Up_DownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE725DA1B0483ED00A45511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CE725DB1B0483ED00A45511 /* TableView_Up_DownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableView_Up_DownTests.m; sourceTree = "<group>"; };
+		5CE725E51B04857D00A45511 /* ViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewTableViewCell.h; sourceTree = "<group>"; };
+		5CE725E61B04857D00A45511 /* ViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewTableViewCell.m; sourceTree = "<group>"; };
+		5CE726221B04A42900A45511 /* UIButton+Mybutton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Mybutton.h"; sourceTree = "<group>"; };
+		5CE726231B04A42900A45511 /* UIButton+Mybutton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Mybutton.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				5CE725C41B0483ED00A45511 /* AppDelegate.m */,
 				5CE725C61B0483ED00A45511 /* ViewController.h */,
 				5CE725C71B0483ED00A45511 /* ViewController.m */,
+				5CE725E51B04857D00A45511 /* ViewTableViewCell.h */,
+				5CE725E61B04857D00A45511 /* ViewTableViewCell.m */,
+				5CE726221B04A42900A45511 /* UIButton+Mybutton.h */,
+				5CE726231B04A42900A45511 /* UIButton+Mybutton.m */,
 				5CE725C91B0483ED00A45511 /* Main.storyboard */,
 				5CE725CC1B0483ED00A45511 /* Images.xcassets */,
 				5CE725CE1B0483ED00A45511 /* LaunchScreen.xib */,
@@ -219,6 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CE725E71B04857D00A45511 /* ViewTableViewCell.m in Sources */,
+				5CE726241B04A42900A45511 /* UIButton+Mybutton.m in Sources */,
 				5CE725C81B0483ED00A45511 /* ViewController.m in Sources */,
 				5CE725C51B0483ED00A45511 /* AppDelegate.m in Sources */,
 				5CE725C21B0483ED00A45511 /* main.m in Sources */,
