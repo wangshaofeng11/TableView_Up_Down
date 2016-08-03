@@ -21,6 +21,8 @@
     NSString *aa; //此处故意更改试试git
     
     BOOL *gitBool; //新的git
+    
+    int a; //mybranch
 }
 
 @end
