@@ -22,7 +22,7 @@
     
     BOOL *gitBool; //新的git
     
-    int a; //mybranch
+    int a; //mybranch 新的
 }
 
 @end
