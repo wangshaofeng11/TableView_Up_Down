@@ -18,6 +18,7 @@
     
     BOOL status[7][2];
     
+    NSString *aa; //此处故意更改试试git
 }
 
 @end
